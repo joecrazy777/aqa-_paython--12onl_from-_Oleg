@@ -40,29 +40,70 @@
 
 a = "Robin Singh"
 list1 = "I love arrays they are my favorite"
-b = a.split()
-list2 = list1.split()
-print(b)
-print(list2)
+# b = a.split()
+# list2 = list1.split()
+# print(b)
+# print(list2)
+
+
+def massive():
+    bob = a.split()
+    text1 = list1.split()
+    print(bob)
+    print(text1)
+
+
+massive()
+
+
 # 2
-name = ["Ivan", "Ivanou"]
-a = "Minsk"
-b = "Belarus"
-print("Привет" + " " + " ".join(name) + "!" + "Добро пожаловать в" + " " + a + " " + b)
+# name = ["Ivan", "Ivanou"]
+# a = "Minsk"
+# b = "Belarus"
+# print("Привет" + " " + " ".join(name) + "!" + "Добро пожаловать в" + " " + a + " " + b)
+
+
+def name1():
+    name = ["Ivan", "Ivanou"]
+    a = "Minsk"
+    b = "Belarus"
+    print(
+        "Привет" + " " + " ".join(name) + "!" + "Добро пожаловать в" + " " + a + " " + b
+    )
+
+
+name1()
 
 # 3
 a = ["I", "love", "arrays", "they", "are", "my", "favorite"]
 b = " ".join(a)
 print(b)
 
+
+def conn():
+    print(b)
+
+
+conn()
+
+
 # 4
 list3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-list3.insert(2, 11)
-list3.pop(6)
-print(list3)
+# list3.insert(2, 11)
+# list3.pop(6)
+# print(list3)
+
+
+def ydalenie():
+    list3.insert(2, 11)
+    list3.pop(6)
+    print(list3)
+
+
+ydalenie()
 # 5
-a = {'a': 1, 'b': 2, 'c': 3}
-b = {'c': 3, 'd': 4, 'e': 5}
+a = {"a": 1, "b": 2, "c": 3}
+b = {"c": 3, "d": 4, "e": 5}
 ab = {}
 
 for key, value in a.items():
@@ -82,20 +123,6 @@ print(ab)
 list22 = [1, 5, 2, 9, 2, 9, 1]
 
 
-def get_unique_numbers(list22):
-    b = []
-    unique_numbers = set(list22)
-    for list22 in unique_numbers:
-        b.append(a)
-        return (b)
-    print(unique_numbers(list22))
-
-
 text = [1, 5, 2, 9, 2, 9, 1]
-#unique_numbers = list(set(text))
-#print(unique_numbers)
-str = text.count()
- for i in text:
-     if i == str(1)
-
-         print(i)
+# unique_numbers = list(set(text))
+# print(unique_numbers)
