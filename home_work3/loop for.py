@@ -15,8 +15,8 @@
 # 1 Даны два целых числа A и B (A < B). Найти сумму всех целых чисел от A до B
 #  включительно.
 
-# a = int(input())
-# b = int(input())
+# a = 5
+# b = 25
 # summ = 0
 
 # for i in range(a, b + 1):
@@ -25,7 +25,7 @@
 # print(summ)
 
 
-def numms(a=int(input()), b=int(input())):
+def numms(a=5, b=25):
     summ = 0
     for i in range(a, b + 1):
         summ += i
@@ -92,6 +92,7 @@ def many_numms(*a):
 
 
 many_numms(1, 1, 2, 2, 3, -1, -4)
+
 
 # 4
 

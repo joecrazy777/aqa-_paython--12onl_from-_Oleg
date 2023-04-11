@@ -94,13 +94,13 @@ list3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # print(list3)
 
 
-def ydalenie():
+def delete():
     list3.insert(2, 11)
     list3.pop(6)
     print(list3)
 
 
-ydalenie()
+delete()
 # 5
 a = {"a": 1, "b": 2, "c": 3}
 b = {"c": 3, "d": 4, "e": 5}
