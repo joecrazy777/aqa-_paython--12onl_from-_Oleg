@@ -1,12 +1,5 @@
 import unittest
-
-def fields(s1=10, s2=10):
-    years = 0
-    while s1 > s2 * 0.1:
-        s1 *= 2
-        s2 *= 3
-        years += 1
-    return years
+from main import fields
 
 # 1. Убедиться, что функция работает корректно для любых значений  s1 и s2
 # 2. Убедиться, что функция работает корректно для  значений  когда  s1 > s2 и s1 > s2

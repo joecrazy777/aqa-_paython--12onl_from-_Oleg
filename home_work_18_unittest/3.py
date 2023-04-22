@@ -1,13 +1,7 @@
 import unittest
+from main import factorial
 
 
-def factorial(n=21):
-    result = 1
-    if n < 0:
-        raise ValueError("Error")
-    for i in range(1, n + 1):
-        result *= i
-    return result
 
 # 1. Убедиться, что функция работает корректно для любых значений n от 0 до 21.
 # 2. Использовать изменяемую переменную вместо нескольких присвоений для увеличения читаемости кода.

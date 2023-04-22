@@ -1,12 +1,7 @@
-def numms(a=5, b=25):
-    summ = 0
-    for i in range(a, b + 1):
-        summ += i
-    return summ
+from main import numms
+import unittest
 
 
-print(numms())
-#
 # 1. Проверить, что функция принимает правильное количество аргументов (2).
 # 2. Проверить, что аргументы являются числами и входят в диапазон допустимых значений (a < b,a > b, a и b - целые числа).
 # 3. Создать переменную "summ" и присвоить ей значение 0.
@@ -15,21 +10,6 @@ print(numms())
 # 6. После завершения цикла вернуть значение "summ".
 # 7. Написать тесты для проверки работы функции с различными аргументами.
 # 8. Проверить, что функция возвращает правильный результат для различных входных данных.
-
-
-import unittest
-
-
-def numms(a=5, b=25):
-    if a > b:
-        return "Error"
-    if type(a) == float or type(b) == float:
-        return "Error"
-    summ = 0
-    for i in range(a, b + 1):
-        summ += i
-
-    return summ
 
 
 class TestNumms(unittest.TestCase):

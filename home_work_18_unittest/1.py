@@ -1,14 +1,5 @@
-a = "  my name is Slim    "
-
-
-def remove_space(a):
-    return a.strip()
-
-
-print(remove_space(a))
-print(a)
-
-
+from main import remove_space
+import unittest
 # 1. Определите строку, с которой нужно работать
 # 2. Убедитесь, что  корректно удаляются пробелы с обеих сторон строки
 # 3. Убедитесь, что  корректно удаляются пробелы с левой  стороны строки
@@ -18,13 +9,9 @@ print(a)
 # 7. Проверить,что функция возвращает новую строку, а не изменяет исходную строку
 # 8. Убедиться,что функции будет возвращать ValueError ,если не задать ей аргумент
 
-import unittest
-
-a = "  my name is Slim    "
 
 
-def remove_space(a):
-    return a.strip()
+
 
 
 class TestString(unittest.TestCase):
